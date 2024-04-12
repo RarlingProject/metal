@@ -9,7 +9,7 @@ if (BUILD_METAL)
 endif()
 
 add_compile_options(
-	-fvisibility=hidden
+	-fvisibility=default
 )
 
 #
@@ -54,6 +54,12 @@ add_framework(Metal
 		src/Metal/MTLRenderCommandEncoder.mm
 		src/Metal/MTLRenderPipeline.mm
 		src/Metal/MTLTexture.mm
+		src/Metal/MTLCaptureManager.mm
+		src/Metal/MTLDepthStencilDescriptor.mm
+		src/Metal/MTLSamplerDescriptor.mm
+		src/Metal/MTLTextureDescriptor.mm
+		src/Metal/MTLVertexDescriptor.mm
+
 
 	DEPENDENCIES
 		system

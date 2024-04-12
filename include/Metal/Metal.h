@@ -26,6 +26,8 @@
 #import <Metal/MTLCommandQueue.h>
 #import <Metal/MTLComputeCommandEncoder.h>
 #import <Metal/MTLComputePipeline.h>
+#import <Metal/MTLCaptureManager.h>
+#import <Metal/MTLCaptureDestination.h>
 #import <Metal/MTLDefines.h>
 #import <Metal/MTLDevice.h>
 #import <Metal/MTLDrawable.h>
@@ -37,5 +39,9 @@
 #import <Metal/MTLResource.h>
 #import <Metal/MTLTexture.h>
 #import <Metal/MTLTypes.h>
+#import <Metal/MTLDepthStencilDescriptor.h>
+#import <Metal/MTLSamplerDescriptor.h>
+#import <Metal/MTLTextureDescriptor.h>
+#import <Metal/MTLVertexDescriptor.h>
 
 #endif // _METAL_METAL_H_

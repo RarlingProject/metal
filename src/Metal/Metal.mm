@@ -38,6 +38,7 @@ static const char* additionalExtensions[] = {
 	//"VK_KHR_swapchain",
 };
 
+
 __attribute__((constructor))
 static void initMetal(void) {
 	bool enableValidation = false;
